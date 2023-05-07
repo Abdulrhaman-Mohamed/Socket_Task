@@ -31,11 +31,12 @@ namespace WindowsFormsApp1
         {
             this.Web_Page = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Web_Page
             // 
-            this.Web_Page.Location = new System.Drawing.Point(67, 201);
+            this.Web_Page.Location = new System.Drawing.Point(206, 207);
             this.Web_Page.Name = "Web_Page";
             this.Web_Page.Size = new System.Drawing.Size(115, 42);
             this.Web_Page.TabIndex = 0;
@@ -45,7 +46,7 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(223, 201);
+            this.button1.Location = new System.Drawing.Point(327, 207);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 42);
             this.button1.TabIndex = 1;
@@ -53,11 +54,22 @@ namespace WindowsFormsApp1
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(448, 207);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(115, 42);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "File Transfer";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Web_Page);
             this.Name = "Home";
@@ -70,6 +82,7 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.Button Web_Page;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

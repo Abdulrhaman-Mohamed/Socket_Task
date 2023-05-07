@@ -16,3 +16,4 @@ E:\Tasks_Mosh\Socket Task\Socket\WindowsFormsApp1\bin\Debug\en-150\WindowsFormsA
 E:\Tasks_Mosh\Socket Task\Socket\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Web_Page_Form.en-150.resources
 E:\Tasks_Mosh\Socket Task\Socket\WindowsFormsApp1\obj\Debug\en-150\WindowsFormsApp1.resources.dll
 E:\Tasks_Mosh\Socket Task\Socket\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.File_Transfer.resources
+E:\Tasks_Mosh\Socket Task\Socket\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Images_Transfer.resources

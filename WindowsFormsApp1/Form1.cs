@@ -31,5 +31,12 @@ namespace WindowsFormsApp1
             this.Hide();
             file_Transfer.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Images_Transfer images_Transfer = new Images_Transfer(this);
+            this.Hide();
+            images_Transfer.Show();
+        }
     }
 }
